@@ -1,16 +1,15 @@
-import { Mesh } from "three"
-import { OrbitControls } from "three/examples/jsm/Addons.js"
+import React from 'react';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Mesh } from '@react-three/drei';
 
 export const Experience = () => {
-    return {
-        <>
-        <OrbitControls />
-        <Mesh> 
-        <boxGeometry />
+  return (
+    <Canvas>
+      <OrbitControls />
+      <mesh>
+        <boxGeometry args={[1, 1, 1]} />
         <meshNormalMaterial />
-
-        </Mesh>
-        
-        
-    }
-}
+      </mesh>
+    </Canvas>
+  );
+};
