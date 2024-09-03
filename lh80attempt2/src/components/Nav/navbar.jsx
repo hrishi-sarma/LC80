@@ -12,8 +12,9 @@ const navbar = () => {
             <li><a href="#skill-bg">Skills</a></li>
             <li><a href="project.html">Projects</a></li>
         </ul>
-        <div className="nav-connect">Connect</div>
     </div>
+
+    
   )
 }
 
