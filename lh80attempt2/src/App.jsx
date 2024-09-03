@@ -1,22 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Canvas } from '@react-three/fiber'
+import React from 'react'
+import Navbar from './components/Nav/navbar'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <Canvas>
-          <Experience />
-          
-        </Canvas>
-        </div>
-    </>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 

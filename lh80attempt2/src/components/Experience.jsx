@@ -10,6 +10,6 @@ export const Experience = () => {
         <boxGeometry args={[1, 1, 1]} />
         <meshNormalMaterial />
       </mesh>
-    </Canvas>
+    </Canvas>   
   );
 };
