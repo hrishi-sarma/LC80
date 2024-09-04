@@ -1,0 +1,22 @@
+.Title h1{
+    font-size: 60px;
+    margin-left: 10vh;
+    padding-top: 3vh;
+
+}
+
+.Body{
+    display: flex;
+    align-items: center;
+    margin: 20vh;
+    justify-content: space-between;    
+    background-color: aliceblue;
+
+}
+
+.sec1{
+
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}

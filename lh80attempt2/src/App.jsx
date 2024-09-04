@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './components/Nav/navbar'
-import Bar from './components/bar/bar'
+import MainContent from './components/MainTitle/MainTitle.jsx'
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Bar/>
+      <MainContent/>
     </div> 
   )
 }
