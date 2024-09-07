@@ -1,28 +1,40 @@
-.Title h1{
-    font-size: 60px;
-    margin-left: 10vh;
-    padding-top: 3vh;
-    font-family: 'Courier New', Courier, monospace;
-
+@keyframes hoverUp {
+    0% {
+        transform: translateY(100px); /* Start from below */
+        opacity: 0; /* Invisible at the start */
+    }
+    100% {
+        transform: translateY(0); /* End at the normal position */
+        opacity: 1; /* Fully visible */
+    }
 }
 
-.Bar{
+.Title h1 {
+    font-size: 60px;
+    padding-top: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+    animation: hoverUp 1s ease-out forwards; 
+}
+
+.Title h1:nth-child(2) {
+    opacity: 0;
+    animation-delay: 0.5s; 
+}
+
+
+.Bar {
     display: flex;
     align-items: center;
     margin-left: 10vh;
     margin-right: 10vh;
     margin-top: 5vh;
-    justify-content: space-between;    
+    justify-content: space-between;
     background-color: aliceblue;
     height: 5px;
-
 }
 
-.sec1{
-
+.sec1 {
     font-family: 'Courier New', Courier, monospace;
-    
-
 }
 
 .container {
@@ -30,33 +42,36 @@
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
 }
-  
+
 .typed-out {
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    width: 100%; 
+    width: 100%;
 }
 
 .aboutme {
     margin-left: 10vh;
     margin-top: 5vh;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-right: 10vh;
 }
 
-.aboutme p{
+.aboutme p {
     margin-top: 2.5vh;
 }
 
-.profimg{
+.profimg {
     width: 150px;
     height: 150px;
     margin-top: 3vh;
 }
 
-.titlestuff{
+.titlestuff {
     position: relative;
     display: flex;
     justify-content: space-between;
     margin-right: 10vh;
+    margin-left: 10vh;
 }

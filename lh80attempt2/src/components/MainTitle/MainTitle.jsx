@@ -34,11 +34,11 @@ const MainTitle = () => {
             </h1>
 
             <p>
-                description texts idk what to put here rn
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis suscipit eum fugiat omnis quaerat nihil facere, id molestias unde, accusamus ab velit nesciunt nobis itaque maxime nostrum temporibus ad! Quos.
             </p>
         </div>
 
-
+        <div className="Bar"/>
         
 
     </div>
