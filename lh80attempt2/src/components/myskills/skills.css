@@ -16,3 +16,15 @@
 .SkillsTitle h1 {
     color: black; /* Ensure the title is black as well */
 }
+
+.Bar2 {
+    display: flex;
+    align-items: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+}

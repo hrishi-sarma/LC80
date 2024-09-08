@@ -4,7 +4,11 @@ import './skills.css'
 const skills = () => {
   return (
     <div className='Skills'>
+
+        <div className="Bar2"/>
+
         <div className="SkillsContent">
+
             <div className="SkillsTitle">
                 <h1>
                     Skills :
@@ -17,7 +21,7 @@ const skills = () => {
 
         </div>
 
-        <div className="Bar"/>
+        <div className="Bar2"/>
 
     </div>
 
