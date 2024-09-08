@@ -38,7 +38,7 @@ const MainTitle = () => {
             </p>
         </div>
 
-        <div className="Bar"/>
+        
         
 
     </div>

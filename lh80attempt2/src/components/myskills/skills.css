@@ -1,0 +1,18 @@
+.Skills {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 7vh;
+}
+
+.SkillsContent {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-right: 10vh;
+    font-size: 20px;
+}
+
+.SkillsTitle h1 {
+    color: black; /* Ensure the title is black as well */
+}

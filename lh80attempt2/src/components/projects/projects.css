@@ -52,4 +52,12 @@
     background-color: #ffffff;
     color: black;
   }
+
+  .title{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    margin-right: 10vh;
+    font-size: 20px;
+  }
   
