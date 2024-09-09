@@ -4,6 +4,7 @@ import MainContent from './components/MainTitle/MainTitle.jsx'
 import { Experience } from './components/Experience.jsx'
 import ProjectContent from './components/projects/projects.jsx'
 import SkillsContent from './components/myskills/skills.jsx'
+import FloatingContent from './components/floatinDocks/docks.jsx'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <MainContent/>
       <SkillsContent/>
       <ProjectContent/>
+      <FloatingContent/>
     </div> 
   )
 }
