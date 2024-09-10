@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.17.6",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@react-three/fiber": "^8.17.7",
     "@tabler/icons-react": "^3.15.0",
     "@types/three": "^0.168.0",
     "clsx": "^2.1.1",
@@ -32,6 +33,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "next-transpile-modules": "^10.0.1",
+    "tailwindcss": "^3.4.10",
     "vite": "^5.4.1"
   }
 }

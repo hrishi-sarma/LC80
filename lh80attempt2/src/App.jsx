@@ -9,11 +9,11 @@ import FloatingContent from './components/floatinDocks/docks.jsx'
 const App = () => {
   return (
     <div>
+      <FloatingContent/>
       <Navbar/>
       <MainContent/>
       <SkillsContent/>
       <ProjectContent/>
-      <FloatingContent/>
     </div> 
   )
 }
