@@ -5,6 +5,7 @@ import { Experience } from './components/Experience.jsx'
 import ProjectContent from './components/projects/projects.jsx'
 import SkillsContent from './components/myskills/skills.jsx'
 import FloatingContent from './components/floatinDocks/docks.jsx'
+import AnimSkillsContent from './components/skillsAnim/skillanim.jsx'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar/>
       <MainContent/>
       <SkillsContent/>
+      <AnimSkillsContent/>
       <ProjectContent/>
     </div> 
   )
