@@ -12,7 +12,7 @@ const Projects = () => {
 
   const cardsData = [
     {
-      image: './public/catto.jpeg',
+      image: 'catto.jpeg',
       title: 'Buddy: The Discord Chatbot',
       description: 'This is the first project description.',
       buttonText: 'Learn More',
