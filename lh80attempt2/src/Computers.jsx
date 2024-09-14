@@ -185,7 +185,7 @@ function Screen({ frame, panel, children, ...props }) {
 function ScreenText({ invert, x = 0, y = 1.2, ...props }) {
   const textRef = useRef()
   const rand = Math.random() * 10000
-  useFrame((state) => (textRef.current.position.x = x + Math.sin(rand + state.clock.elapsedTime / 4) * 15))
+  useFrame((state) => (textRef.current.position.x = x + Math.sin(rand + state.clock.elapsedTime / 4) * 28))
   return (
     <Screen {...props}>
       <PerspectiveCamera makeDefault manual aspect={1 / 1} position={[0, 0, 15]} />
@@ -193,7 +193,7 @@ function ScreenText({ invert, x = 0, y = 1.2, ...props }) {
       <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 5]} />
       <Text font="/courier-new-webfont.woff" position={[x, y, 0]} ref={textRef} fontSize={1} letterSpacing={-0.1} color={!invert ? 'black' : '#ffffff'} outlineWidth={0.02}>
-          Webdev, Python, C++, C, ReactJS, ThreeJS, KVlang, Flutter, Dart, 
+          Webdev, Python, C++, C, ReactJS, ThreeJS, KVlang, Flutter, Dart, PyQT6, Java, JS, Godot, Unity, Unreal, Blender
       </Text>  
     </Screen>
   )
