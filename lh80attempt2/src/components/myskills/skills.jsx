@@ -11,7 +11,7 @@ const skills = () => {
 
             <div className="SkillsTitle">
                 <h1>
-                    Skills :
+                    Skills
                 </h1>
             </div>
 

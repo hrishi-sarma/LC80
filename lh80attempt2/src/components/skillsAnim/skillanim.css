@@ -1,0 +1,5 @@
+canvas {
+    height: 40vh; /* Occupies 80% of the viewport height */
+    width: 100%; /* Occupies the full width of the viewport */
+    display: flex;
+}

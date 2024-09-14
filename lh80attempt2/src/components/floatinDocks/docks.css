@@ -1,15 +1,21 @@
 .dock-container {
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2); /* Updated for compatibility */
   backdrop-filter: blur(10px);
   padding: 1rem;
   border-radius: 1.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   position: fixed;
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 10; /* Ensure the dock is above other elements */
+  transition: transform 0.3s ease-in-out;
+}
+
+.dock-container.moving {
+  transform: translateX(-50%) translateY(-20px); /* Adjust -10px to control how much it moves up */
 }
 
 .docks {
@@ -41,13 +47,12 @@
   position: absolute;
   bottom: 4rem;
   left: 50%;
- 
   opacity: 0;
-  
   color: white;
   font-size: 0.875rem;
+  text-align: center;
 }
 
 .icon-container:hover .icon-label {
-  opacity: 0;
+  opacity: 0; 
 }

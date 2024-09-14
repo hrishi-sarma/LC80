@@ -1,0 +1,27 @@
+canvas {
+    height: 80vh; /* Occupies 80% of the viewport height */
+    width: 100vw; /* Occupies the full width of the viewport */
+    display: block; /* Ensures the canvas is displayed as a block element */
+    margin: 0; /* Removes any default margin */
+}
+
+.canvas1 {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 20vh;
+  }
+
+.canvas2 {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 20vh;
+}
+  
