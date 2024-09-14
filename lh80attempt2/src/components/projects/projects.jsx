@@ -40,7 +40,7 @@ const Projects = () => {
       link: 'https://github.com/hrishi-sarma/QuotesAppCodsoft'
     },
     {
-      image: 'catto.jpeg',
+      image: 'cattoawake.jpeg',
       title: 'Edtech project (WIP)',
       description: 'This is the fifth project description.',
       buttonText: 'Learn More',
