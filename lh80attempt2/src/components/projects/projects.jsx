@@ -14,36 +14,26 @@ const Projects = () => {
     {
       image: 'catto.jpeg',
       title: 'Buddy: The Discord Chatbot',
-      description: 'This is the first project description.',
-      buttonText: 'Learn More',
       link: 'https://github.com/hrishi-sarma/Buddy-the-discord-chatbot'
     },
     {
       image: 'cattosleep.jpeg',
       title: 'Vehicle Showcase 3D',
-      description: 'This is the second project description.',
-      buttonText: 'Learn More',
       link: 'https://github.com/hrishi-sarma/PhantomShowcase3D'
     },
     {
       image: 'cattoawake.jpeg',
       title: 'Dino game in 3D',
-      description: 'This is the third project description.',
-      buttonText: 'Learn More',
       link: 'https://github.com/hrishi-sarma/Fossil404'
     },
     {
       image: 'cattosleep.jpeg',
       title: 'Quotes App',
-      description: 'This is the fourth project description.',
-      buttonText: 'Learn More',
       link: 'https://github.com/hrishi-sarma/QuotesAppCodsoft'
     },
     {
       image: 'catto.jpeg',
       title: 'Edtech project (WIP)',
-      description: 'This is the fifth project description.',
-      buttonText: 'Learn More',
       link: 'https://github.com/hrishi-sarma/Educrow'
     }
   ];
