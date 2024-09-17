@@ -25,3 +25,29 @@ canvas {
     margin-bottom: 20vh;
 }
   
+.canvas1 {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  .canvas1 {
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .canvas1 {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .canvas1 {
+    width: 100%;
+    height: 60vh;
+  }
+}
